@@ -32,7 +32,6 @@ class _MainPageState extends State<MainPage> {
                     setState(() {
                       gender = 'M';
                     });
-                    
                   },
                   child: Container(
                     height: 200,
@@ -56,7 +55,6 @@ class _MainPageState extends State<MainPage> {
                     setState(() {
                       gender = 'F';
                     });
-                    
                   },
                   child: Container(
                     height: 200,
@@ -196,7 +194,6 @@ class _MainPageState extends State<MainPage> {
                     fontWeight: FontWeight.bold,
                   )
                 : const TextStyle(),
-                  
                 ),
               ],
             )
